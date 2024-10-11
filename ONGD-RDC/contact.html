@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Contacter</title>
+</head>
+<body>
+    <nav class="nav">
+		<ul id="navlinks">
+            <i id="bars"class="fa-solid fa-xmark" onclick="hidemenu()"></i> 
+			<img src="..\ONGD RDC\IMG\IMG-20240309-WA0043.jpg" width="100px" height="80px">
+			<li ><a href="home.html">accueil</a></li>
+			<li><a href="aproposdenous.html">a propos de nous</a></li>
+			<li > <a href="oeuvres.html">oeuvres</a> </li>
+			<li ><a href="contact.html"> Contactez-Nous</a></li>
+
+		</ul>
+        <i id="bars"  class="fa-solid fa-bars" onclick="showmenu()"></i>
+</nav> 
+  
+    <section class="contac">
+        <div class="co">
+            <div class="contacts">
+                <div class="address">
+                    <i class="fa-solid fa-house"></i>
+                </div>  
+    
+               <p>Quartier Mulongwe,Avenue Rombe II,Nº 63
+            <br> <br>Ville d'Uvira, Province du Sud-Kivu, R.D. Congo</p>
+             </div>
+            <div class="contacts">
+                <div class="adress">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <p> 
+                    (+243) 814690010
+                    <br><br>
+                    (+243) 975990425
+                    
+                      </p>
+            </div>
+            <div class="contacts">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    
+                </div>
+            <p><a href="mailto:emergence.rdc12@gmail.com">emergence.rdc12@gmail.com</a>
+            <br><br> <a href="mailto:lwalachristophe24@gmail.com">lwalachristophe24@gmail.com </a>
+          </p>
+            </div>
+        </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Entrez votre nom ">
+                    <br><br>
+                       <input type="text" name="objet" placeholder="Objet du Message">
+                    <br><br>
+                      
+                     <input type="email" name="" id=""placeholder="Entrez votre adresse email" >
+                    <br><br>
+                    <textarea name="" id="" cols="45" rows="10"placeholder="Votre Message" ></textarea>
+                    <br><br>
+                     <input type="submit" id="name" value="Envoyer">
+                </form>
+            </div>
+       
+    </section>
+    <section class="links">
+    <div class>
+        <i href="https://web.facebook.com/emergencerdcongo" class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-blog"></i>
+    </div>
+   
+</section>
+<script>
+    var navlink=document.getElementById("navlinks");
+    function showmenu(){
+        navlink.style.top="0px";
+    }
+    function hidemenu(){
+        navlink.style.top="-300px";
+    }
+</script>
+</body>
+</html>

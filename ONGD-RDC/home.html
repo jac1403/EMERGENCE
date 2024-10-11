@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="home.css">
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Accueil|OngdEmergence</title>
+</head>
+<body>
+	<nav class="nav">
+		<div class="logo">
+			<img src="..\ONGD-RDC\IMG\IMG-20240309-WA0043.jpg" width="100px" height="80px">
+		</div>
+		
+			<ul id="navlinks">
+				<i id="bars"class="fa-solid fa-xmark" onclick="hidemenu()"></i> 
+			<li ><a href="home.html">accueil</a></li>
+			<li><a href="aproposdenous.html">a propos de nous</a></li>
+			<li><a href="oeuvres.html">oeuvres</a></li>
+			<li><a href="contact.html">Contactez-Nous </a> </li>
+		</ul>
+		<i id="bars"  class="fa-solid fa-bars" onclick="showmenu()"></i>
+	</nav> 
+	<div class="center">
+		<h1>ONGD EMERGENCE RDC</h1>
+		<br>
+		<p>Nous sommes ONGD, une ONG oeuvrant dans plusieurs aspects</p>
+		<br><br>
+			<h2>En savoir plus sur Nous ? </h2>
+			<br> 
+			<button><a href="aproposdenous.html"> Cliquez ici</a></button>
+		<br> <br>
+		<section class="link">
+			<div>
+
+				<i class="fa-solid fa-shield"></i>
+				<i class="fa-solid fa-envelope"></i>
+				<i class="fa-solid fa-blog"></i>
+				<i class="fa-brands fa-html5"></i>
+				<i class="fa-brands fa-youtube"></i>
+			</div>
+		  	</section>
+		
+	</div>
+	<script>
+		var navlink=document.getElementById("navlinks");
+		function showmenu(){
+			navlink.style.top="0px";
+
+		}
+		function hidemenu(){
+			navlink.style.top="-300px";
+		}
+	</script>
+	</footer>
+</body>
+</html>
